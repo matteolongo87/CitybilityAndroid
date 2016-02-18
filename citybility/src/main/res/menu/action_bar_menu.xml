@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/action_search"
+          android:title="@string/action_search"
+          android:icon="@drawable/ic_action_search"
+          android:showAsAction="ifRoom"
+          android:actionViewClass="android.widget.SearchView" />
+    
+    <item android:id="@+id/action_notifiche"
+          android:title="@string/action_notifiche"
+          android:icon="@layout/action_notifiche_badge"
+          android:showAsAction="ifRoom"/>
+</menu>

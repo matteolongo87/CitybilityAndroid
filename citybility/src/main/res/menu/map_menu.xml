@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.citybility.app.MapActivity" >
+
+    <item android:id="@+id/action_naviga"
+          android:title="@string/action_naviga"
+          android:icon="@drawable/ic_naviga"
+          android:showAsAction="always"/>
+
+</menu>

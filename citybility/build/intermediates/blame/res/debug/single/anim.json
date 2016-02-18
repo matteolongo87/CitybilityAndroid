@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\anim\\object_fade_in.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\anim\\object_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\anim\\object_fade_out_slow.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\anim\\object_fade_out_slow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\anim\\object_fade_in_slow.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\anim\\object_fade_in_slow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\anim\\object_fade_out.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\anim\\object_fade_out.xml"
+    }
+]

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.citybility.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+        
+     <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true"/>   
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- Notification -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:name=".CitybilityApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:logo="@drawable/logo"
+        android:theme="@style/CitybilityTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+     <!-- develop       
+		<meta-data 
+			android:name="com.google.android.geo.API_KEY" 
+			android:value="AIzaSyArXB52mDIkcHls3D2Br79kU9cIEQwFw3A"/> 
+		
+     -->		
+	 <!-- real -->		
+		<meta-data 
+			android:name="com.google.android.geo.API_KEY" 
+			android:value="AIzaSyB2PXY1yrawFeAAfw9G4GURpnFGaJs5N5c"/> 
+	
+	<!--develop
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="fb1395399864098401" />
+     --> 
+     		
+  	 <!-- real  -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="fb1499445693635686" />
+           
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationName"
+            android:value="@string/app_name" />
+
+        <activity
+            android:name=".IntroActivity"
+            android:configChanges="orientation"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/CitybilityTheme.noTitleBar_noAnimTheme" >
+        </activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:configChanges="orientation"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/CitybilityTheme.noTitleBar_noAnimTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_login"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_facebook_login"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SignupActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_register"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".CampaignTabsActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/CitybilityTheme.noAnimTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/campaign_searchable" />
+        </activity>
+        <activity
+            android:name=".CampaignDetailActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_campaign_detail"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/CitybilityTheme.noAnimTheme" >
+        </activity>
+        <activity
+            android:name=".ImageSliderActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_campaign_detail"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".CampaignsByCategoryActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_category_detail"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/CitybilityTheme.noAnimTheme" >
+        </activity>
+        <activity
+            android:name=".ProjectTabsActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_project"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/CitybilityTheme.noAnimTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/project_searchable" />
+        </activity>
+        <activity
+            android:name=".ProjectDetailActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_project_detail"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/CitybilityTheme.noAnimTheme" >
+        </activity>
+        <activity
+            android:name=".CitybiliterListActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_project"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/CitybilityTheme.noAnimTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/citybiliter_searchable" />
+        </activity>
+        <activity
+            android:name=".CitybiliterDetailActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_citybiliter_detail"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/CitybilityTheme.noAnimTheme" >
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_profile"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/CitybilityTheme.noAnimTheme" >
+        </activity>
+        <activity
+            android:name=".QRCodeScannerActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_purchase_registration"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".CodeTypingActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_purchase_registration"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".PinTypingActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_purchase_registration"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".CodeSubmittedActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_code_submitted"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".NotificationListActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_notification_list"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".NotificationDetailActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_notification_detail"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/CitybilityTheme.noAnimTheme" >
+        </activity>
+
+        <activity
+            android:name=".MapActivity"
+            android:label="@string/title_activity_map"
+            android:configChanges="orientation"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <receiver
+            android:name="com.professioneit.gcmclientsdk.services.GcmBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.citybility.notificationDefaultTitle"
+                android:value="@string/app_name" />
+            <meta-data
+                android:name="com.citybility.notificationTargetActivity"
+                android:value="com.citybility.app.NotificationListActivity" />
+            <!-- <meta-data android:name="com.citybility.notificationIcon" android:resource="@drawable/ic_citybiliter" /> -->
+            <meta-data
+                android:name="com.citybility.playsOnNotification"
+                android:value="true" />
+            <meta-data
+                android:name="com.citybility.vibratesOnNotification"
+                android:value="true" />
+        </receiver>
+
+        <service android:name="com.professioneit.gcmclientsdk.services.GcmIntentService" />
+        <service android:name="net.citybility.services.CommunicationManagerService" />
+
+        <provider
+            android:name=".provider.SearchContentProvider"
+            android:authorities="com.citybility.app.provider.CampaignSearchContentProvider"
+            android:enabled="true"
+            android:exported="false" >
+        </provider>
+        <!--
+	<provider android:authorities="com.facebook.app.FacebookContentProvider1499445693635686"
+		          android:name="com.facebook.FacebookContentProvider"
+		          android:exported="true"/>
+        -->
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider1395399864098401"
+            android:exported="true" />
+
+    </application>
+
+</manifest>

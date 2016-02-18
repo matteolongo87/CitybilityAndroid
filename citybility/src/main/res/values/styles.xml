@@ -1,0 +1,63 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="footerBarStyle">
+        <item name="android:background">@drawable/bottom_bar_background</item>
+    </style>
+
+    <style name="footerBarStyle.buttonPrimaryStyle">
+        <item name="android:background">@drawable/ic_registra</item>
+    </style>
+
+    <style name="footerBarStyle.buttonSecondaryStyle">
+        <item name="android:textSize">11dp</item>
+        <item name="android:textColor">@color/bottomBarText</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:drawablePadding">0dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="keypad">
+        <item name="android:background">@android:color/white</item>
+    </style>
+    
+    
+    <style name="keypad.key">
+        <item name="android:textSize">38dp</item>
+        <item name="android:background">@drawable/round_keypad_button</item>
+        <item name="android:textColor">@color/citybility_green</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">14dp</item>
+        <item name="android:layout_marginRight">14dp</item>
+    </style>
+    
+    <style name="FacebookLoginButton">
+	    <item name="android:background">@drawable/rounded_blue_facebook_button</item>
+	    <item name="android:layout_gravity">center_horizontal</item>
+	    <item name="android:textColor">@android:color/white</item>
+	    <item name="android:textSize">20dp</item>
+	    <item name="android:textStyle">bold</item>
+	</style>
+	
+     
+    <style name="loadingDialog" >
+	    <item name="android:windowNoTitle">true</item>
+	    <item name="android:windowFullscreen">true</item>
+	    <item name="android:windowIsFloating">false</item>
+	    <item name="android:windowIsTranslucent">true</item>
+	    <item name="android:windowBackground">@android:color/transparent</item>
+	</style>
+	
+    
+    <style name="listView" parent="@android:style/Widget.ListView">
+		<item name="android:divider">@color/lineColor2</item>
+		<item name="android:dividerHeight">0.5dp</item>
+    </style>
+    
+    <style name="date_picker" parent="@android:style/Widget.DeviceDefault.DatePicker">
+		<item name="android:divider">@drawable/rounded_green_button</item>
+	</style>
+</resources>

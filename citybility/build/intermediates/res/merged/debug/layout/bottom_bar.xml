@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomBar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:gravity="bottom"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/buttonsLeft"
+        style="@style/footerBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnProgetti"
+            style="@style/footerBarStyle.buttonSecondaryStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_noprofit"
+            android:text="@string/btn_no_profit" />
+
+        <Button
+            android:id="@+id/btnCampagne"
+            style="@style/footerBarStyle.buttonSecondaryStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_campagne"
+            android:text="@string/btn_campagne" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:id="@+id/buttonsCenter"
+            style="@style/footerBarStyle"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true" />
+
+        <Button
+            android:id="@+id/btnRegistra"
+            style="@style/footerBarStyle.buttonPrimaryStyle"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignParentBottom="true"
+            android:drawable="@drawable/ic_registra" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonsRight"
+        style="@style/footerBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnCitibiliter"
+            style="@style/footerBarStyle.buttonSecondaryStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_citybiliter"
+            android:text="@string/btn_citybiliter" />
+
+        <Button
+            android:id="@+id/btnProfilo"
+            style="@style/footerBarStyle.buttonSecondaryStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_profilo"
+            android:text="@string/btn_profilo" />
+    </LinearLayout>
+
+</LinearLayout>

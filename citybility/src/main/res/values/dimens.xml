@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- the main view padding because of bottomBar -->
+    <dimen name="bottom_bar_filling">40dp</dimen>
+    
+    <!-- keypad key -->
+    <dimen name="keypad_key_height">68dp</dimen>
+    <dimen name="keypad_key_width">68dp</dimen>
+    
+</resources>

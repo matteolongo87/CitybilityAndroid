@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.citybility.app"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:paddingLeft="20dp"
+    android:paddingStart="20dp"
+    android:paddingRight="20dp"
+    android:paddingEnd="20dp" >
+
+    <com.citybility.app.custom.RoundedImageView
+        android:id="@+id/cbThumbnail"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:contentDescription="@string/default_photo"
+        android:src="@drawable/photo_default"
+        custom:border_width="0dp"
+        custom:shape="circular" />
+
+    <RelativeLayout
+        android:id="@+id/cbInfo"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_toEndOf="@id/cbThumbnail"
+        android:layout_toRightOf="@id/cbThumbnail" >
+
+        <View
+            android:id="@+id/cbLineSeparator"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+        	android:layout_centerVertical="true"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="6dp"
+            android:background="@color/lineColor2" />
+        
+        <TextView
+            android:id="@+id/cbName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/cbLineSeparator"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/dummy_text_xl"
+            android:textColor="@color/citybility_gray_text"
+            android:textSize="17dp" />
+
+
+        <LinearLayout
+            android:id="@+id/cbInfoSecondLine"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/cbLineSeparator" >
+
+            <ImageView
+                android:id="@+id/cbDistanceIcon"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="start|center"
+                android:contentDescription="geo"
+                android:src="@drawable/ic_like" />
+
+            <TextView
+                android:id="@+id/cbFeedInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|bottom"
+                android:minWidth="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:ellipsize="none"
+                android:singleLine="true"
+                android:text="@string/dummy_text_s"
+            	android:textColor="@color/citybility_gray_text"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/cbLikeIcon"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="start|center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:contentDescription="Heart"
+                android:src="@drawable/ic_heart" />
+
+            <TextView
+                android:id="@+id/cbLikeInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|bottom"
+                android:minWidth="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:ellipsize="none"
+                android:singleLine="true"
+                android:text="@string/dummy_text_s"
+            	android:textColor="@color/citybility_gray_text"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

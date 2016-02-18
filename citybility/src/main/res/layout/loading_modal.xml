@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@android:color/transparent" >
+	    
+	<!-- per mostrare l'actionbar senza la possibilità di poterci cliccare aggiungere il margin TOP all'elemento sotto -->     
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginTop="0dp"
+	    android:background="#DDDDDDDD" >
+	
+	    <ImageView
+	        android:id="@+id/loadingAnimation"
+	        android:layout_height="120dp"
+	        android:layout_width="120dp"
+	        android:layout_centerHorizontal="true"
+	        android:layout_centerVertical="true"
+	        android:src="@drawable/loading_animation" />
+
+	</RelativeLayout>
+</FrameLayout>

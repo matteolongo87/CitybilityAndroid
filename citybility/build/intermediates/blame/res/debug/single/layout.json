@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\activity_code_typing.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\activity_code_typing.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_citybiliter_list_item.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_citybiliter_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_project_tabs.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_project_tabs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\activity_code_submitted.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\activity_code_submitted.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\activity_map.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\activity_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\activity_signup.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_campaign_detail.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_campaign_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\application_activity_main_layout.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\application_activity_main_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_notification_list.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_notification_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\listview_footer_loading_item.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\listview_footer_loading_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_intro_slide_3.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_intro_slide_3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_intro_animation.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_intro_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\application_activity_main_layout_simple.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\application_activity_main_layout_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_citybiliter_detail.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_citybiliter_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_intro_slide_6.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_intro_slide_6.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_intro_slider.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_intro_slider.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_campaign_list_item.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_campaign_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_category_list_item.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_category_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_image_pickup_list_item.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\dialog_image_pickup_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_image_slider_item.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_image_slider_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\action_notifiche_badge.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\action_notifiche_badge.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_notification_list_item.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_notification_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_supporter_list_item.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_supporter_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_image_slider.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_image_slider.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\loading_modal.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\loading_modal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_intro_slide_4.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_intro_slide_4.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_notification_detail.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_notification_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_project_list_item.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_project_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\bottom_bar.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\bottom_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_forgotten_password.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_forgotten_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\date_picker_dialog.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\date_picker_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_project_detail.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_project_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\activity_intro.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\activity_intro.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_campaign_tabs.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_campaign_tabs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\activity_qrcode_scanner.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\activity_qrcode_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_no_network.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_no_network.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_citybiliter_list.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_citybiliter_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_intro_slide_5.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_intro_slide_5.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_citybiliter_list_from_search_item.xml",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\layout\\fragment_citybiliter_list_from_search_item.xml"
+    }
+]

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/csb_mainText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingTop="20dp"
+            android:text="@string/csb_info"
+            android:textColor="@color/citybility_light_gray_text"
+            android:textSize="16dp"
+            android:focusable="true"
+    		android:focusableInTouchMode="true" >
+            <requestFocus />
+        </TextView>
+
+        <TextView
+            android:id="@+id/csb_fbQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingTop="10dp"
+            android:text="@string/csb_feedback_question"
+            android:textColor="@color/citybility_light_gray_text"
+            android:textSize="16dp" />
+        <!-- feedback buttons -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <View
+                android:id="@+id/csbLineSeparator1"
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/lineColor1" />
+
+            <LinearLayout
+                android:id="@+id/csb_feedbackItem"
+                style="@android:attr/buttonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_below="@id/csbLineSeparator1"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/csb_feedbackOKAction"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="4dp" >
+
+                    <ImageView
+                        android:id="@+id/feedbackOKImage"
+                        android:layout_width="38dp"
+                        android:layout_height="38dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:contentDescription="@string/csb_feedback_ok"
+                        android:src="@drawable/ic_feedback_ok" />
+
+                    <TextView
+                        android:id="@+id/feedbackOKText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/csb_feedback_ok"
+                        android:textColor="@color/citybility_light_gray_text"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/csbLineSeparatorH"
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@color/lineColor2" />
+
+                <LinearLayout
+                    android:id="@+id/csb_feedbackKOAction"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="4dp" >
+
+                    <ImageView
+                        android:id="@+id/feedbackKOImage"
+                        android:layout_width="38dp"
+                        android:layout_height="38dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:contentDescription="@string/csb_feedback_ko"
+                        android:src="@drawable/ic_feedback_ko" />
+
+                    <TextView
+                        android:id="@+id/feedbackKOText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/csb_feedback_ko"
+                        android:textColor="@color/citybility_light_gray_text"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/cbLineSeparator2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/csb_feedbackItem"
+            android:background="@color/lineColor1" />
+
+        <FrameLayout
+            android:id="@+id/csb_commentItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cbLineSeparator2"
+            android:paddingBottom="14dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingTop="14dp" >
+
+            <EditText
+                android:id="@+id/csb_comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_light_gray_background"
+                android:hint="@string/csb_comment_hint"
+                android:lines="4"
+                android:paddingBottom="8dp"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                android:paddingTop="8dp"
+                android:textColor="@color/citybility_gray_text"
+                android:textColorHint="#BBBBBB"
+                android:gravity="top"
+                android:textSize="16dp" />
+        </FrameLayout>
+
+        <View
+            android:id="@+id/cbLineSeparator3"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/csb_commentItem"
+            android:background="@color/lineColor1" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="24dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingTop="24dp" >
+
+            <Switch
+                android:id="@+id/csb_publishSwitch"
+                android:layout_width="112dp"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textOff="0"
+                android:textOn="1"
+                android:thumb="@drawable/switch_thumb"
+                android:track="@drawable/switch_track"
+                android:textColor="@android:color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@id/csb_publishSwitch"
+                android:layout_toStartOf="@id/csb_publishSwitch" >
+
+                <TextView
+                    android:id="@+id/csb_publishRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/csb_share_question"
+                    android:textColor="@color/citybility_light_gray_text"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/csb_publishRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/csb_publishRow1"
+                    android:text="@string/csb_share_question_info"
+                    android:textColor="@color/citybility_light_gray_text"
+                    android:textSize="12dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/csb_btnShare"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/rounded_green_button"
+            android:drawableLeft="@drawable/ic_share"
+            android:drawablePadding="0dp"
+            android:paddingLeft="18dp"
+            android:paddingStart="18dp"
+            android:paddingRight="8dp"
+            android:paddingEnd="8dp"
+            
+            android:text="Condividi donazione"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/csb_btnClose"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/rounded_white_button"
+            android:text="Chiudi"
+            android:textColor="@color/citybility_green"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>

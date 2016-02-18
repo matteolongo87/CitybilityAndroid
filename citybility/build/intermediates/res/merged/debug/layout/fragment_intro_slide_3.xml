@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:layout_margin="0dp"
+    android:background="@android:color/white" >
+
+    <LinearLayout
+        android:id="@+id/slideTextCnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:orientation="vertical">
+        
+        <TextView
+	        android:id="@+id/row1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:text="@string/intro_slide_3_row_1"
+			android:textColor="@color/citybility_dark_gray"
+			android:textSize="17sp"
+         />
+      
+        <TextView
+	        android:id="@+id/row2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:text="@string/intro_slide_3_row_2"
+			android:textColor="@color/citybility_green"
+			android:textSize="17sp"
+			android:textStyle="bold"
+         /> 
+        <TextView
+	        android:id="@+id/row3"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:text="@string/intro_slide_3_row_3"
+			android:textColor="@color/citybility_dark_gray"
+			android:textSize="17sp"
+         />
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/slideTextCnt"
+        android:layout_centerHorizontal="true"
+	    android:padding="0dp"
+	    android:layout_margin="0dp"
+        android:src="@drawable/intro_background_tiled"
+        android:background="@android:color/white"
+        android:scaleType="centerCrop" 
+        android:baselineAlignBottom="true"/>
+    
+   <ImageView
+        android:id="@+id/logo"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo_bordered" />
+
+</RelativeLayout>

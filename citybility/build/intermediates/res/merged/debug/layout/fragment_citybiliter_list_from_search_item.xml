@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.citybility.app"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:paddingEnd="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingStart="20dp" >
+
+    <com.citybility.app.custom.RoundedImageView
+        android:id="@+id/cbThumbnail"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/default_photo"
+        android:src="@drawable/photo_default"
+        custom:border_width="0dp"
+        custom:shape="circular" />
+    
+	<ImageView
+        android:id="@+id/rightArrowIcon"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/dummy_text_s"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/ic_arrow_right" />
+	
+    <TextView
+        android:id="@+id/cbName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/rightArrowIcon"
+        android:layout_toRightOf="@id/cbThumbnail"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/dummy_text_xl"
+        android:textColor="@color/citybility_gray_text"
+        android:textSize="17dp" />
+
+</RelativeLayout>

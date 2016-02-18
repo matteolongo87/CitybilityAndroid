@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.citybility.app"
+        minSdkVersion 15
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':citybilityConnect')
+    compile project(':googleplayservices_lib')
+    compile project(':facebookSDK')
+    compile files('libs/pitgcmclientsdk.jar')
+    compile files('libs/pitzbarcodescanner.jar')
+    compile files('libs/zbar.jar')
+}

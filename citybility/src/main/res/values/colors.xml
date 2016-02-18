@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="citybility_green">#75CC00</color>
+    <color name="citybility_dark_gray">#666666</color>
+    <color name="citybility_light_gray">#EEEEEE</color>
+    
+    <color name="citybility_dark_gray_text">#606060</color>
+    <color name="citybility_gray_text">#787878</color>
+    <color name="citybility_light_gray_text">#999999</color>
+    <color name="citybility_gray_hint_text">#E0E0E0</color>
+    
+    <color name="headerBarText">#FFFFFF</color>
+    
+    <color name="bottomBarBackground">#FFFFFF</color>
+    <color name="bottomBarText">#787878</color>
+    <color name="bottomBarActiveText">#75cc00</color>
+    <color name="bottomBarShadow">#DDDDDD</color>
+    
+    <color name="lineColor1">#C4C4C4</color>
+    <color name="lineColor2">#E0E0E0</color>
+    
+    <color name="semiTransparentWhite">#FFF6</color>
+    
+    <color name="bluFacebook">#3B5998</color>
+    <color name="bluTwiter">#00AEEF</color>
+    
+    
+    <color name="searchFieldBackground">#71C500</color>
+    <color name="searchFieldBorder">#AFE26B</color>
+    <color name="searchFieldText">#DBF0C0</color>
+    <color name="searchFieldHint">#D0ECAB</color>
+        
+    <color name="indicatorView.point_colors">#66FFFFFF</color>
+    <color name="indicatorView.active_point_colors">#FFFFFFFF</color>
+    
+    
+    <color name="opaque_light">#66FFFFFF</color>
+    <color name="opaque_dark">#40000000</color>
+    
+    <color name="badge_background_color1">#FFF65416</color>
+    <color name="badge_background_color2">#99F65416</color>
+    
+    
+    <!-- PITZbarCodescanner resources -->
+    
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_border">#ffafed44</color>
+</resources>
+

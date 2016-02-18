@@ -1,0 +1,135 @@
+
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.citybility.app"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:padding="20dp"
+    android:background="@android:color/white" >
+
+    <com.citybility.app.custom.RoundedImageView
+        android:id="@+id/cmpThumbnail"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/default_photo"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/photo_default"
+        custom:border_width="0dp"
+        custom:border_radius="3dp"
+        custom:shape="rectangular" />
+
+    <TextView
+        android:id="@+id/cmpName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/cmpThumbnail"
+        android:layout_toRightOf="@id/cmpThumbnail"
+        android:layout_marginTop="-5dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/dummy_text_xl"
+        android:textSize="17dp" />
+
+    <LinearLayout android:id="@+id/cmpInfoFist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/cmpName"
+        android:layout_toEndOf="@id/cmpThumbnail"
+        android:layout_toRightOf="@id/cmpThumbnail" >
+        
+	    <TextView android:id="@+id/locName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="20dp"
+	        android:ellipsize="end"
+	        android:singleLine="true"
+	        android:text="@string/dummy_text_s"
+	        android:textStyle="bold"
+	        android:textSize="14dp" />
+	    
+	    <TextView android:id="@+id/locSeparator"
+	        android:layout_width="wrap_content"
+	        android:layout_height="20dp"
+	        android:ellipsize="end"
+	        android:singleLine="true"
+	        android:text="@string/text_separator1"
+	        android:textSize="14dp" />
+	     
+	    <TextView android:id="@+id/locDescription"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:ellipsize="end"
+	        android:singleLine="true"
+	        android:text="@string/dummy_text_m"
+	        android:textSize="14dp" />
+    </LinearLayout>
+    
+    
+    <View android:id="@+id/cmpLineSeparator"
+        android:layout_width = "fill_parent" 
+        android:layout_height="1dp" 
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/cmpInfoFist"
+        android:layout_toEndOf="@id/cmpThumbnail"
+        android:layout_toRightOf="@id/cmpThumbnail"
+        android:background="@color/lineColor2" />
+
+    
+    <LinearLayout android:id="@+id/cmpInfoSecondLine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/cmpLineSeparator"
+        android:layout_toEndOf="@id/cmpThumbnail"
+        android:layout_toRightOf="@id/cmpThumbnail">
+        
+	    <ImageView android:id="@+id/suppDistanceIcon"
+	        android:layout_width="16dp"
+	        android:layout_height="16dp"
+	        android:layout_gravity="start|center"
+	        android:contentDescription="geo"
+	        android:src="@drawable/elenchi_geo_icon" />
+    
+	    <TextView
+	        android:id="@+id/suppDistanceInfo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:minWidth="50dp"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginStart="5dp"
+	        android:layout_gravity="start|bottom"
+	        android:ellipsize="none"
+	        android:singleLine="true"
+	        android:text="@string/dummy_text_s"
+	        android:textSize="14dp"/>
+	    
+	    <ImageView android:id="@+id/suppHeartIcon"
+	        android:layout_width="16dp"
+	        android:layout_height="16dp"
+	        android:layout_gravity="start|center"
+	        android:contentDescription="Supporters"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginStart="10dp"
+	        android:src="@drawable/elenchi_citybiliter_icon" />
+	    
+	    <TextView
+	        android:id="@+id/suppCitybilitersInfo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginStart="5dp"
+	        android:layout_gravity="start|bottom"
+	        android:ellipsize="none"
+	        android:singleLine="true"
+	        android:text="@string/dummy_text_s"
+	        android:textSize="14dp" />
+	    
+    </LinearLayout>
+    
+</RelativeLayout> 

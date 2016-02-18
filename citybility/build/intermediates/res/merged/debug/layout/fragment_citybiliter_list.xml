@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/grpBtnActive"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/group_button_left"
+            android:text="@string/cbl_more_active"
+            android:textColor="@color/citybility_green"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/grpBtnCity"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginStart="-1dp"
+            android:layout_weight="1"
+            android:background="@drawable/group_button_right"
+            android:text="@string/cbl_same_city"
+            android:textColor="@color/citybility_green"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/extSeparator1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/loginInfo"
+        android:background="@color/lineColor1" />
+
+    <ListView
+        android:id="@+id/citibiliterList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="400dp" >
+    </ListView>
+
+    <View
+        android:id="@+id/bottomBarFilling"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_bar_filling" />
+
+</LinearLayout>

@@ -1,0 +1,165 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.citybility.app"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:padding="20dp" >
+
+    <com.citybility.app.custom.RoundedImageView
+        android:id="@+id/notificationThumb"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/default_photo"
+        android:src="@drawable/photo_default"
+        custom:border_radius="3dp"
+        custom:border_width="0dp"
+        custom:shape="rectangular" />
+
+    <ImageView
+        android:id="@+id/rightArrowIcon"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="0dp"
+        android:contentDescription="@string/dummy_text_s"
+        android:src="@drawable/ic_arrow_right" />
+
+    <LinearLayout
+        android:id="@+id/notificationInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/rightArrowIcon"
+        android:layout_toStartOf="@id/rightArrowIcon"
+        android:layout_toRightOf="@id/notificationThumb"
+        android:layout_toEndOf="@id/notificationThumb"
+        android:paddingLeft="14dp"
+        android:paddingTop="0dp"
+        android:paddingRight="14dp"
+        android:paddingBottom="0dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/notificationTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+       		android:layout_marginTop="-4dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/dummy_text_xl"
+            android:textColor="@color/citybility_gray_text"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/notificationSubTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|bottom"
+       		android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/dummy_text_s"
+            android:textColor="@color/citybility_gray_text"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</RelativeLayout>
+<!--
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.citybility.app"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:padding="20dp" >
+
+    <RelativeLayout
+        android:id="@+id/cbInfo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" >
+
+        <LinearLayout
+            android:id="@+id/notificationDateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/notificationDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:ellipsize="none"
+                android:gravity="center_horizontal"
+                android:minWidth="50dp"
+                android:singleLine="true"
+                android:text="@string/dummy_date"
+                android:textColor="@color/citybility_gray_text"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/notificationTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:ellipsize="none"
+                android:gravity="center_horizontal"
+                android:minWidth="50dp"
+                android:singleLine="true"
+                android:text="@string/dummy_time"
+                android:textColor="@color/citybility_gray_text"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/vSeparator"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:layout_toLeftOf="@id/notificationDateTime"
+            android:layout_toStartOf="@id/notificationDateTime"
+            android:background="@color/lineColor2" />
+
+        <LinearLayout
+            android:id="@+id/notificationInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/vSeparator"
+            android:layout_toStartOf="@id/vSeparator"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/notificationTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/dummy_text_xl"
+                android:textColor="@color/citybility_gray_text"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/notificationSubTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|bottom"
+                android:ellipsize="none"
+                android:minWidth="50dp"
+                android:singleLine="true"
+                android:text="@string/dummy_text_s"
+                android:textColor="@color/citybility_gray_text"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>-->

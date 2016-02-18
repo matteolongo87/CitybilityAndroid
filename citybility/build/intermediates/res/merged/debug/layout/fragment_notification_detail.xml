@@ -1,0 +1,42 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_gravity="top"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:layout_margin="20dp" >
+        
+        <TextView
+            android:id="@+id/ntd_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/dummy_text_m"
+            android:textColor="@color/citybility_dark_gray_text"
+            android:textSize="17dp" />
+
+        <View
+            android:id="@+id/ntd_LineSeparator1"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_marginTop="20dp"
+            android:background="@color/lineColor2" />
+
+        <TextView
+            android:id="@+id/ntd_subTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ellipsize="none"
+            android:text="@string/dummy_text_xl"
+            android:textColor="@color/citybility_gray_text"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</ScrollView>

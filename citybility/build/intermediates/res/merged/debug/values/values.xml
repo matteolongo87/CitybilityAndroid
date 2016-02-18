@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="badge_background_color1">#FFF65416</color>
+    <color name="badge_background_color2">#99F65416</color>
+    <color name="bluFacebook">#3B5998</color>
+    <color name="bluTwiter">#00AEEF</color>
+    <color name="bottomBarActiveText">#75cc00</color>
+    <color name="bottomBarBackground">#FFFFFF</color>
+    <color name="bottomBarShadow">#DDDDDD</color>
+    <color name="bottomBarText">#787878</color>
+    <color name="citybility_dark_gray">#666666</color>
+    <color name="citybility_dark_gray_text">#606060</color>
+    <color name="citybility_gray_hint_text">#E0E0E0</color>
+    <color name="citybility_gray_text">#787878</color>
+    <color name="citybility_green">#75CC00</color>
+    <color name="citybility_light_gray">#EEEEEE</color>
+    <color name="citybility_light_gray_text">#999999</color>
+    <color name="headerBarText">#FFFFFF</color>
+    <color name="indicatorView.active_point_colors">#FFFFFFFF</color>
+    <color name="indicatorView.point_colors">#66FFFFFF</color>
+    <color name="lineColor1">#C4C4C4</color>
+    <color name="lineColor2">#E0E0E0</color>
+    <color name="opaque_dark">#40000000</color>
+    <color name="opaque_light">#66FFFFFF</color>
+    <color name="searchFieldBackground">#71C500</color>
+    <color name="searchFieldBorder">#AFE26B</color>
+    <color name="searchFieldHint">#D0ECAB</color>
+    <color name="searchFieldText">#DBF0C0</color>
+    <color name="semiTransparentWhite">#FFF6</color>
+    <color name="viewfinder_border">#ffafed44</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <declare-styleable name="PageIndicatorsView"><attr format="dimension" name="point_radius"/><attr format="dimension" name="point_margin"/><attr format="integer" name="point_number"/><attr format="color" name="point_color"/><attr format="color" name="active_point_color"/><attr format="color" name="point_border_color"/><attr format="dimension" name="point_border_width"/><attr format="boolean" name="step_mode"/></declare-styleable>
+    <declare-styleable name="RoundedImageView"><attr format="dimension" name="border_radius"/><attr format="dimension" name="border_width"/><attr format="string" name="border_color"/><attr format="enum" name="shape"><enum name="circular" value="0"/><enum name="rectangular" value="1"/></attr></declare-styleable>
+    <declare-styleable name="SpannedTextView"><attr format="dimension" name="marginLeft"/><attr format="integer" name="lines"/><attr format="string" name="spannedText"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="bottom_bar_filling">40dp</dimen>
+    <dimen name="keypad_key_height">68dp</dimen>
+    <dimen name="keypad_key_width">68dp</dimen>
+    <integer name="viewfinder_border_length">60</integer>
+    <integer name="viewfinder_border_width">4</integer>
+    <string name="accept">Accetto</string>
+    <string name="action_naviga">Percorso</string>
+    <string name="action_notifiche">Notifiche</string>
+    <string name="action_search">Cerca</string>
+    <string name="app_name">Citybility</string>
+    <string name="btn_campagne">CityShops</string>
+    <string name="btn_cancel">Annulla</string>
+    <string name="btn_citybiliter">Citybiliter</string>
+    <string name="btn_end">Fine</string>
+    <string name="btn_network_conf">Impostazioni</string>
+    <string name="btn_no_profit">Iniziative</string>
+    <string name="btn_profilo">Profilo</string>
+    <string name="btn_refresh">Riprova</string>
+    <string name="btn_registration">Iscriviti</string>
+    <string name="btn_send">Invia</string>
+    <string name="btn_sign_in">Accedi</string>
+    <string name="btn_sign_up">Iscriviti</string>
+    <string name="btn_slide_back">❰ Indietro</string>
+    <string name="btn_slide_next">Avanti ❱</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="cb_active_from">Attivo dal %1s</string>
+    <string name="cb_donated">Donati</string>
+    <string name="cb_follow_success_msg">Da oggi segui il Citibiliter "<b>%1$s</b>"</string>
+    <string name="cb_follower">Follower</string>
+    <string name="cb_following">Following</string>
+    <string name="cb_positive_feedback">Feedback positivi</string>
+    <string name="cb_purchased">Acquisti registrati</string>
+    <string name="cb_supported_prj">Cause supportate</string>
+    <string name="cb_unfollow_success_msg">Hai smessso di seguire il Citibiliter "<b>%1$s</b>"</string>
+    <string name="cbl_more_active">Più attivi</string>
+    <string name="cbl_same_city">Nella mia città</string>
+    <string name="citibiliters_num">%1$d partecipanti</string>
+    <string name="citybiters_list_title">Citibiliters</string>
+    <string name="com_facebook_loginview_log_in_button">Facebook</string>
+    <string name="com_facebook_loginview_log_in_button_long">Accedi con Facebook</string>
+    <string name="com_facebook_loginview_log_out_button">Esci da Facebook</string>
+    <string name="com_facebook_loginview_log_out_button_long">Esci da Facebook</string>
+    <string name="cs_follow_success_msg">Da oggi segui il CityShop "<b>%1$s</b>"</string>
+    <string name="cs_support">Supporta: %1s</string>
+    <string name="cs_title_tab1">CityShops</string>
+    <string name="cs_title_tab2">CityShops vicini</string>
+    <string name="cs_title_tab3">CityShops recenti</string>
+    <string name="cs_title_tab4">Categorie CityShops</string>
+    <string name="cs_unfollow_success_msg">Hai smessso di seguire il CityShop "<b>%1$s</b>"</string>
+    <string name="csb_close">Chiudi</string>
+    <string name="csb_comment_hint">Motiva la scelta: il commento rimarrà privato</string>
+    <string name="csb_feedback_ko">Qualche problema</string>
+    <string name="csb_feedback_ok">Tutto bene!</string>
+    <string name="csb_feedback_question">Problemi prima o durante la transazione?</string>
+    <string name="csb_info">&lt;b>%1$s&lt;/b> farà una donazione a &lt;b>%2$s&lt;/b> con lo scopo di finanziare &lt;b>%3$s&lt;/b></string>
+    <string name="csb_null_feedback_comment_msg">E\' necessario motivare la scelta.</string>
+    <string name="csb_null_feedback_msg">E\' necessario dare un feedback.</string>
+    <string name="csb_share">Condividi donazione</string>
+    <string name="csb_share_question">Rendi pubblica la donazione?</string>
+    <string name="csb_share_question_info">Clicca se vuoi che sia visibile nella app.</string>
+    <string name="csb_share_success_msg">%1$s farà una donazione a "%2$s" con lo scopo di finanziare "%3$s"</string>
+    <string name="csb_share_text">%1$s farà una donazione a "%2$s" con lo scopo di finanziare "%3$s"</string>
+    <string name="date_from_to">Da %1$s a %2$s</string>
+    <string name="default_photo">Foto</string>
+    <string name="distance_from_here">%1$s da qui</string>
+    <string name="donated_amount">%1$d€ donati fin\'ora</string>
+    <string name="donated_and_total">%1$s€ su %2$s€</string>
+    <string name="dummy_date">21/01/2015</string>
+    <string name="dummy_datetime">21/01/2015 12:06</string>
+    <string name="dummy_num_0">0</string>
+    <string name="dummy_num_1">3</string>
+    <string name="dummy_num_2">42</string>
+    <string name="dummy_num_3">369</string>
+    <string name="dummy_text_l">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</string>
+    <string name="dummy_text_m">Lorem ipsum dolor sit amet</string>
+    <string name="dummy_text_s">Lorem</string>
+    <string name="dummy_text_xl">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </string>
+    <string name="dummy_text_xxl">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</string>
+    <string name="dummy_time">12:06</string>
+    <string name="error">Errore</string>
+    <string name="fb_login_error_msg">Al momento non è possibile effettuare il login.\nRiprovare più tardi</string>
+    <string name="fb_no_account_error_msg">Non è stato trovato alcun indirizzo email associato a questo account Facebook.</string>
+    <string name="fb_no_publish_permission">Non hai permessi sufficienti per la condivisione</string>
+    <string name="fb_publish_cancelled_msg">Condivisione anullata.</string>
+    <string name="fb_publish_error_msg">Si è verificato un errore nel tentativo di condivisione.\nRiprovare più tardi</string>
+    <string name="fb_publish_success_msg">Condivisione effettuata con successo.</string>
+    <string name="follow">Segui</string>
+    <string name="form_email_ko">Indirizzo email non valido</string>
+    <string name="form_mandatory_field_missing">Valore obbligatorio</string>
+    <string name="generic_error_msg">Si è verificato un errore.\nRiprovare più tardi</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="intro_slide_3_row_1">La prima piattaforma di</string>
+    <string name="intro_slide_3_row_2">Social Responsibility Shopping</string>
+    <string name="intro_slide_3_row_3">che unisce Esercenti e Clienti, per sostenere cause sociali meritevoli.</string>
+    <string name="intro_slide_4_row_1">Trova i negozi e i ristoranti "buoni" vicino a te,</string>
+    <string name="intro_slide_4_row_2">Certifia i tuoi acquisti in pochi secondi.</string>
+    <string name="intro_slide_4_row_3">Il commerciante donerà parte del denaro ad una no-profit.</string>
+    <string name="intro_slide_5_row_1">Per trovare i negozi e i ristoranti "buoni" vicino a te, Citybility ha bisogno di conoscere la tua posizione.</string>
+    <string name="intro_slide_6_row_1">Per condividere le tue buone azioni con gl iamici, permetti a Citybility di accedere alla rubrica.\nAvrai sempre tu il controllo!</string>
+    <string name="intro_slide_6_row_2">\nAvrai sempre tu il controllo!</string>
+    <string name="login_account_action">Crealo in pochi secondi</string>
+    <string name="login_account_question">Non hai un account?</string>
+    <string name="login_email">eMail</string>
+    <string name="login_email_hint">mario@sito.com</string>
+    <string name="login_info">Accedi a Citybility inserendo i tuoi dati</string>
+    <string name="login_password">Password</string>
+    <string name="login_password_hint">la tua password</string>
+    <string name="login_password_question">password dimenticata?</string>
+    <string name="msg_error">Errore</string>
+    <string name="msg_no_gps_signal">Nessun segnale CPS.\nAttivare la localizzazione.</string>
+    <string name="msg_no_navigation_apps">Nessuna applicazione disponibile per questo tipo di navigazione</string>
+    <string name="msg_no_valid_coordinates">Coordinate GPS non trovate</string>
+    <string name="msg_success">Operazione effettuata</string>
+    <string name="msg_warning">Attenzione</string>
+    <string name="no_network_msg">Connessione internet non disponibile</string>
+    <string name="ok">OK</string>
+    <string name="password_forgotten">Password Dimenticata?</string>
+    <string name="password_forgotten_info1">Inserisci l\'eMail utilizata per la registrazione.</string>
+    <string name="password_forgotten_info2">Ti invieremo le istruzioni per reimpostare in pochi secondi la password</string>
+    <string name="password_forgotten_request_sent">Le istruzioni di recupero password sono state inviate all\'indirizzo email di registrazione.</string>
+    <string name="password_forgotten_title">Password Dimenticata?</string>
+    <string name="permission_not_granted">Impossibile completare l\'operazione per mancanza di accettazione dei permessi.</string>
+    <string name="photo_gallery">Photo Gallery</string>
+    <string name="photo_post">Condivisione foto</string>
+    <string name="prf_logout">Logout</string>
+    <string name="prf_modify">Modifica</string>
+    <string name="prf_settings">Impostazioni</string>
+    <string name="prj_follow_success_msg">Da oggi segui l\'iniziativa "<b>%1$s</b>"</string>
+    <string name="prj_support_through">Supporta questa iniziativa da:</string>
+    <string name="prj_title_tab1">Iniziative</string>
+    <string name="prj_title_tab2">Iniziative vicine</string>
+    <string name="prj_title_tab3">Iniziative recenti</string>
+    <string name="prj_unfollow_success_msg">Hai smessso di seguire l\'iniziativa "<b>%1$s</b>"</string>
+    <string name="qrc_action">Inquadra il QrCode</string>
+    <string name="qrc_error_msg">Si è verificato un errore nella lettura del codice</string>
+    <string name="qrc_invalid_msg">Codice non valido</string>
+    <string name="qrc_manual_code_typing">Scansione difficoltosa? Inserisci il codice manualmente.</string>
+    <string name="qrc_offline_question"><b>Sei offline?</b> La registrazine verrà inviata in seguito</string>
+    <string name="qrc_sub_action">per registrare il tuo acquisto e fare del bene.</string>
+    <string name="qrcm_info_main">Inserimento manuale</string>
+    <string name="qrcm_info_sub">Se hai problemi con la scansione del qrcode, inserisci manualmente il codice location di 6 cifre</string>
+    <string name="reg_agreements_info">Cliccando su \"Iscriviti\" accetti termini del servizio e informativa sulla pirvacy.</string>
+    <string name="reg_birth_date">Data di nascita</string>
+    <string name="reg_birth_date_hint">01/01/1980</string>
+    <string name="reg_cb_policy_title">Privacy Policy</string>
+    <string name="reg_choose_profile_photo">Scegli una foto profilo</string>
+    <string name="reg_create_new_profile">Oppure crea un nuovo profilo:</string>
+    <string name="reg_email">eMail</string>
+    <string name="reg_email_hint">mario@sito.com</string>
+    <string name="reg_female">F</string>
+    <string name="reg_gender">Sesso</string>
+    <string name="reg_male">M</string>
+    <string name="reg_name">Nome</string>
+    <string name="reg_name_hint">Mario</string>
+    <string name="reg_other">Altro</string>
+    <string name="reg_other_hint">Opzionale</string>
+    <string name="reg_password">Password</string>
+    <string name="reg_password_hint">la tua password</string>
+    <string name="reg_phone">Telefono</string>
+    <string name="reg_phone_hint">Opzionale</string>
+    <string name="reg_profile_photo">Scegli una foto profilo</string>
+    <string name="reg_re_password">Password</string>
+    <string name="reg_re_password_hint">conferma password</string>
+    <string name="reg_success_msg">Registrazione avvenuta con successo.</string>
+    <string name="reg_surname">Cognome</string>
+    <string name="reg_surname_hint">Rossi</string>
+    <string name="search_hint">Cerca</string>
+    <string name="server_error_msg">Si è verificato un errore.\nRiprovare più tardi</string>
+    <string name="share">Condividi</string>
+    <string name="sharing_progress_dialog_text">Condivisione in corso...</string>
+    <string name="sharing_success_msg">Codivisione effettuata con successo</string>
+    <string name="sharing_unaspected_error_msg">Errore inaspettato da Facebook</string>
+    <string name="take_photo_msg">Scegli o scatta una foto</string>
+    <string name="taking_from_camera_error">Si è verificato un errore nella lettura della foro.\nRiprovare.</string>
+    <string name="text_separator1">-</string>
+    <string name="title_activity_campaign_detail">Campagna</string>
+    <string name="title_activity_category_detail">Campagne</string>
+    <string name="title_activity_citybiliter">Citybiliter</string>
+    <string name="title_activity_citybiliter_detail">Dettaglio Citybiliter</string>
+    <string name="title_activity_citybility_base">CitybilityBaseActivity</string>
+    <string name="title_activity_code_submitted">Grazie %1$s</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_map"/>
+    <string name="title_activity_notification_detail">Notifica</string>
+    <string name="title_activity_notification_list">Lista Notifiche</string>
+    <string name="title_activity_profile">Profilo e Account</string>
+    <string name="title_activity_project">Iniziative vicine a te</string>
+    <string name="title_activity_project_detail">Dettaglio iniziativa</string>
+    <string name="title_activity_purchase_registration">Registra acquisto</string>
+    <string name="title_activity_register">Registrazione</string>
+    <string name="title_activity_relogin">Relogin</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_facebook_login">Accesso a Facebook</string>
+    <string name="tk_info_main">Sei presso %1$s</string>
+    <string name="tk_info_sub"><b>Inserisci il pin</b> fornito dall\'esercente per completare la registrazione e sbloccare la donazione</string>
+    <string name="unfollow">Non seguire più</string>
+    <string name="welcome_text">Benvenuto su Citybility</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="CitybilityActionBar" parent="android:Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/citybility_green</item>
+        <item name="android:titleTextStyle">@style/CitybilityActionBarTitleText</item>
+    </style>
+    <style name="CitybilityActionBarTabText" parent="android:Widget.Holo.Light.ActionBar.TabText">
+        <item name="android:background">@color/citybility_green</item>
+        <item name="android:textColor">@color/headerBarText</item>
+    </style>
+    <style name="CitybilityActionBarTitleText" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/headerBarText</item>
+    </style>
+    <style name="CitybilityEditText" parent="android:Widget.Holo.Light.EditText">
+        <item name="android:textColor">@color/citybility_gray_text</item>
+        <item name="android:textColorHint">@color/citybility_gray_hint_text</item>
+        <item name="android:background">@drawable/edit_text_background</item>
+    </style>
+    <style name="CitybilityTheme" parent="android:Theme.Holo.Light">
+    	<item name="android:textColor">@color/citybility_gray_text</item>    	
+        <item name="android:actionBarStyle">@style/CitybilityActionBar</item>
+        <item name="android:actionBarTabTextStyle">@style/CitybilityActionBarTabText</item>
+        <item name="android:actionMenuTextColor">@color/headerBarText</item>
+    	<item name="android:windowContentOverlay">@null</item>
+    	<item name="android:editTextStyle">@style/CitybilityEditText</item>
+        <item name="android:listViewStyle">@style/listView</item>
+    	       
+    </style>
+    <style name="CitybilityTheme.noAnimTheme" parent="CitybilityTheme">
+  		<item name="android:windowAnimationStyle">@null</item>
+	</style>
+    <style name="CitybilityTheme.noTitleBar_noAnimTheme" parent="android:style/Theme.NoTitleBar">
+  		<item name="android:windowAnimationStyle">@null</item>
+	</style>
+    <style name="FacebookLoginButton">
+	    <item name="android:background">@drawable/rounded_blue_facebook_button</item>
+	    <item name="android:layout_gravity">center_horizontal</item>
+	    <item name="android:textColor">@android:color/white</item>
+	    <item name="android:textSize">20dp</item>
+	    <item name="android:textStyle">bold</item>
+	</style>
+    <style name="date_picker" parent="@android:style/Widget.DeviceDefault.DatePicker">
+		<item name="android:divider">@drawable/rounded_green_button</item>
+	</style>
+    <style name="footerBarStyle">
+        <item name="android:background">@drawable/bottom_bar_background</item>
+    </style>
+    <style name="footerBarStyle.buttonPrimaryStyle">
+        <item name="android:background">@drawable/ic_registra</item>
+    </style>
+    <style name="footerBarStyle.buttonSecondaryStyle">
+        <item name="android:textSize">11dp</item>
+        <item name="android:textColor">@color/bottomBarText</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:drawablePadding">0dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="keypad">
+        <item name="android:background">@android:color/white</item>
+    </style>
+    <style name="keypad.key">
+        <item name="android:textSize">38dp</item>
+        <item name="android:background">@drawable/round_keypad_button</item>
+        <item name="android:textColor">@color/citybility_green</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">14dp</item>
+        <item name="android:layout_marginRight">14dp</item>
+    </style>
+    <style name="listView" parent="@android:style/Widget.ListView">
+		<item name="android:divider">@color/lineColor2</item>
+		<item name="android:dividerHeight">0.5dp</item>
+    </style>
+    <style name="loadingDialog">
+	    <item name="android:windowNoTitle">true</item>
+	    <item name="android:windowFullscreen">true</item>
+	    <item name="android:windowIsFloating">false</item>
+	    <item name="android:windowIsTranslucent">true</item>
+	    <item name="android:windowBackground">@android:color/transparent</item>
+	</style>
+</resources>

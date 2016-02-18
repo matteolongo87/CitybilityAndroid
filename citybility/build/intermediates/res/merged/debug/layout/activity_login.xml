@@ -1,0 +1,172 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.citybility.app.LoginActivity" >
+
+    <TableLayout
+        android:id="@+id/loginFormTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:shrinkColumns="1"
+        android:stretchColumns="1" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:background="@drawable/bottom_border1"
+            android:gravity="center_vertical"
+            android:minHeight="90dp" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="2" >
+
+                <TextView
+                    android:id="@+id/loginInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+	                android:layout_marginLeft="20dp"
+	                android:layout_marginStart="20dp"
+	                android:layout_marginRight="20dp"
+	                android:layout_marginEnd="50dp"
+                    android:text="@string/login_info"
+                    android:textSize="16dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/loginInfo"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/accountQuestion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+		                android:layout_marginLeft="20dp"
+		                android:layout_marginStart="20dp"
+                        android:text="@string/login_account_question"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/accountAction"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp"
+		                android:layout_marginRight="20dp"
+		                android:layout_marginEnd="50dp"
+                        android:text="@string/login_account_action"
+                        android:textColor="@color/citybility_green"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:background="@drawable/bottom_border2"
+            android:gravity="center_vertical"
+            android:minHeight="50dp" >
+
+            <TextView
+                android:id="@+id/emailLabel"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/login_email"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/lgEmailField"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:ems="10"
+                android:hint="@string/login_email_hint"
+                android:inputType="textEmailAddress" >
+
+                <requestFocus />
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:background="@drawable/bottom_border1"
+            android:gravity="center_vertical"
+            android:minHeight="50dp" >
+
+            <TextView
+                android:id="@+id/passwordLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/login_password"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/lgPasswordField"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:ems="10"
+                android:hint="@string/login_password_hint"
+                android:inputType="textPassword"
+                android:fontFamily="sans-serif" >
+            </EditText>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/loginFormTable"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/rounded_green_button"
+        android:text="@string/btn_sign_in"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/passwordForgottenAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSignIn"
+        android:layout_centerHorizontal="true"
+        android:text="@string/password_forgotten"
+        android:textColor="@color/citybility_green"
+        android:textSize="16dp" />
+
+</RelativeLayout>

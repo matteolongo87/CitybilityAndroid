@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_close.png",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\drawable-xxxhdpi\\ic_close.png"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_feedback_ko_green.png",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\drawable-xxxhdpi\\ic_feedback_ko_green.png"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_feedback_ok_green.png",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\drawable-xxxhdpi\\ic_feedback_ok_green.png"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_navigation_marker.png",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\drawable-xxxhdpi\\ic_navigation_marker.png"
+    },
+    {
+        "merged": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_naviga.png",
+        "source": "C:\\Users\\Matteo\\Desktop\\App\\Citybility1\\citybility\\src\\main\\res\\drawable-xxxhdpi\\ic_naviga.png"
+    }
+]

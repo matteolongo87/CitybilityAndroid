@@ -1,0 +1,446 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.citybility.app"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+			 <com.citybility.app.custom.RoundedImageView
+			     android:id="@+id/cbThumbnail"
+			     android:layout_width="115dp"
+			     android:layout_height="115dp"
+			     android:layout_gravity="center_horizontal"
+			     android:layout_marginTop="16dp"
+			     android:contentDescription="@string/default_photo"
+			     android:src="@drawable/photo_default"
+			     custom:border_width="0dp"
+			     custom:shape="circular" />
+          
+
+            <TextView
+                android:id="@+id/cbName"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+			     android:layout_gravity="center"
+			     android:gravity="center"
+                android:background="#66FFFFFF"
+                android:text=""
+                android:textColor="@color/citybility_gray_text"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+        <!-- SHARE buttons -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <View
+                android:id="@+id/cbLineSeparator1"
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/lineColor1" />
+
+            <LinearLayout
+                android:id="@+id/shareItem"
+                style="@android:attr/buttonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/cbLineSeparator1"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/followAction"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="4dp" >
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:contentDescription="@string/dummy_text_s"
+                        android:src="@drawable/ic_add" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/follow"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                
+                <LinearLayout
+                    android:id="@+id/unfollowAction"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="4dp"
+                    android:visibility="gone"  >
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:contentDescription="@string/unfollow"
+                        android:src="@drawable/ic_minus" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/unfollow"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/cbLineSeparatorH"
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@color/lineColor2" />
+
+                <LinearLayout
+                    android:id="@+id/shareAction"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="4dp" >
+
+                    <ImageView
+                        android:id="@+id/followicon"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:contentDescription="@string/dummy_text_s"
+                        android:src="@drawable/ic_forward" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/share"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+            <View
+            android:id="@+id/cbLineSeparator2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/shareItem"
+            android:background="@color/lineColor1" />
+   
+		
+        <!-- Active -->
+		<TextView
+               android:id="@+id/cdActive"
+               android:layout_width="wrap_content"
+               android:layout_height="55dp"
+               android:gravity="center_vertical"
+               android:layout_marginLeft="20dp"
+               android:layout_marginStart="20dp"
+               android:layout_marginRight="20dp"
+               android:layout_marginEnd="20dp"
+                android:text=""
+               android:textSize="17dp" />
+        <View
+            android:id="@+id/cbLineSeparator3"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@color/lineColor2" />
+
+        <!-- Following -->
+        <RelativeLayout
+            android:id="@+id/cbFollowingItem"
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:paddingBottom="11dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/cbFollowingNum"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+               	android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="end"
+                android:contentDescription="@string/dummy_text_s"
+                android:textSize="34dp"
+                android:textColor="@color/citybility_green"
+                android:text="@string/dummy_num_0"/>
+
+            <ImageView
+                android:id="@+id/rightArrowIcon2"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/dummy_text_s"
+                android:src="@drawable/ic_arrow_right" />
+            
+            <TextView
+                android:id="@+id/cbFollowingLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/cbFollowingNum"
+                android:layout_toRightOf="@id/cbFollowingNum"
+                android:layout_toStartOf="@id/rightArrowIcon2"
+                android:layout_toLeftOf="@id/rightArrowIcon2"
+                android:text="@string/cb_following"
+                android:textSize="17dp" />
+            
+            
+        </RelativeLayout>
+
+
+        <View
+            android:id="@+id/cbLineSeparator4"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@color/lineColor2" />
+        
+        <!-- Follower -->
+        <RelativeLayout
+            android:id="@+id/cbFollowerItem"
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:paddingBottom="11dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/cbFollowerNum"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+               	android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="end"
+                android:contentDescription="@string/dummy_text_s"
+                android:textSize="34dp"
+                android:textColor="@color/citybility_green"
+                android:text="@string/dummy_num_0"/>
+
+            <ImageView
+                android:id="@+id/rightArrowIcon1"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/dummy_text_s"
+                android:src="@drawable/ic_arrow_right" />
+            
+            <TextView
+                android:id="@+id/cbFollowerLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/cbFollowerNum"
+                android:layout_toRightOf="@id/cbFollowerNum"
+                android:layout_toStartOf="@id/rightArrowIcon1"
+                android:layout_toLeftOf="@id/rightArrowIcon1"
+                android:text="@string/cb_follower"
+                android:textSize="17dp" />
+            
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/cbLineSeparator5"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@color/lineColor2" />
+
+        <!-- Acquisti registrati -->
+        <RelativeLayout
+            android:id="@+id/cbPurchasedtem"
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:paddingBottom="11dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/cbPurchasedNum"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+               	android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="end"
+                android:contentDescription="@string/dummy_text_s"
+                android:textSize="34dp"
+                android:textColor="@color/citybility_green"
+                android:text="@string/dummy_num_0"/>
+            
+            <TextView
+                android:id="@+id/cbPurchasedLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/cbPurchasedNum"
+                android:layout_toRightOf="@id/cbPurchasedNum"
+                android:text="@string/cb_purchased"
+                android:textSize="17dp" />
+            
+            
+        </RelativeLayout>
+        
+        <View
+            android:id="@+id/cbLineSeparator6"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@color/lineColor2" />
+
+        <!-- Donati -->
+        <RelativeLayout
+            android:id="@+id/cbDonatedtem"
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:paddingBottom="11dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/cbDonatedNum"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+               	android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="end"
+                android:contentDescription="@string/dummy_text_s"
+                android:textSize="34dp"
+                android:textColor="@color/citybility_green"
+                android:text="@string/dummy_num_0"/>
+            
+            <TextView
+                android:id="@+id/cbDonatedLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/cbDonatedNum"
+                android:layout_toRightOf="@id/cbDonatedNum"
+                android:text="@string/cb_donated"
+                android:textSize="17dp" />
+            
+            
+        </RelativeLayout>
+        
+        <View
+            android:id="@+id/cbLineSeparator7"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@color/lineColor2" />
+
+        <!-- Following -->
+        <RelativeLayout
+            android:id="@+id/cbSupportedItem"
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:paddingBottom="11dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/cbSupportedNum"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+               	android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="end"
+                android:contentDescription="@string/dummy_text_s"
+                android:textSize="34dp"
+                android:textColor="@color/citybility_green"
+                android:text="@string/dummy_num_0"/>
+            
+            <TextView
+                android:id="@+id/cbSupportedLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/cbSupportedNum"
+                android:layout_toRightOf="@id/cbSupportedNum"
+                android:text="@string/cb_supported_prj"
+                android:textSize="17dp" />
+            
+            
+        </RelativeLayout>
+        
+        <View
+            android:id="@+id/cbLineSeparator9"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@color/lineColor2" />
+
+        <!-- Feedback Positivi -->
+        <RelativeLayout
+            android:id="@+id/cbPositiveFeedbacktem"
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:paddingBottom="11dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/cbPositiveFeedbackNum"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+               	android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="end"
+                android:contentDescription="@string/dummy_text_s"
+                android:textSize="34dp"
+                android:textColor="@color/citybility_green"
+                android:text="@string/dummy_num_0"/>
+            
+            <TextView
+                android:id="@+id/cbPositiveFeedbackLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/cbPositiveFeedbackNum"
+                android:layout_toRightOf="@id/cbPositiveFeedbackNum"
+                android:text="@string/cb_positive_feedback"
+                android:textSize="17dp" />
+            
+            
+        </RelativeLayout>
+      
+        <View 
+              android:id="@+id/bottomBarFilling"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/bottom_bar_filling"
+            />
+    </LinearLayout>
+
+</ScrollView>

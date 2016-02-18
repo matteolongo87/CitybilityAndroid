@@ -1,0 +1,31 @@
+<resources>
+   
+   <declare-styleable name="SpannedTextView">
+       <attr name="marginLeft" format="dimension" />
+       <attr name="lines" format="integer" />
+       <attr name="spannedText" format="string" />
+   </declare-styleable>
+   
+   <declare-styleable name="PageIndicatorsView">
+       <attr name="point_radius" format="dimension" />
+       <attr name="point_margin" format="dimension" />
+       <attr name="point_number" format="integer" />
+       <attr name="point_color" format="color" />
+       <attr name="active_point_color" format="color" />
+       <attr name="point_border_color" format="color" />
+       <attr name="point_border_width" format="dimension" />
+       <attr name="step_mode" format="boolean" />
+       
+   </declare-styleable>
+   
+   <declare-styleable name="RoundedImageView">
+       <attr name="border_radius" format="dimension" />
+       <attr name="border_width" format="dimension" />
+       <attr name="border_color" format="string" />
+       <attr name="shape" format="enum">
+           <enum name="circular" value="0"/>
+           <enum name="rectangular" value="1"/>
+       </attr>
+   </declare-styleable>
+   
+</resources>
